@@ -1,7 +1,6 @@
 /* background */
 .bg {
-    background-image: url("#");
-    background-color: #343a40;
+    background-image: url("ask_duke.png");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -16,38 +15,14 @@
     font-family: 'Roboto', sans-serif;
     padding-top: 15px;
   }
-  
-  /* button styling */
-  .btn-group button {
-    background-color: #A50044;
-    border: 1px solid #A50044;
-    color: #EDBB00;
-    padding: 10px 24px;
-    cursor: pointer;
-    display: inline-block;
-    text-align: center;
-    left: auto;
-    right: auto;
-    font-family: 'Roboto', sans-serif;
-    width: 20%;
-  }
-  
-  .btn-group:after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  .btn-group button:hover {
-    background-color: #DB0030;
-  }
-  
+
   /* centered button group */
   .tc {
     text-align: center;
     padding-top: 10px;
   }
 
+/* centered button group */
   nav {
 	margin: 27px auto 0;
 
@@ -150,3 +125,4 @@ p {
 span {
     color: #2BD6B4;
 }
+
