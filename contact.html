@@ -1,6 +1,11 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <script>
+            function myFunction() {
+              document.getElementById("demo").innerHTML = "The Canes STINK";
+            }
+            </script>
     </head>
     <style>
         body, html {
@@ -14,10 +19,12 @@
         <a href="#">About</a>
         <a href="#">Blog</a>
         <a href="#">Portfolio</a>
-        <a href="contact.html">Contact</a>
+        <a href="#">Contact</a>
         <div class="animation start-home"></div>
     </nav>
     <div class="bg">
+        <p id="demo">Guess what!</p>
+<button type="button" onclick="myFunction()">Find out what!</button>
     </div>
   </body>
 </html> 
